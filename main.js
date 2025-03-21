@@ -27,4 +27,4 @@ const sortByYear = (book1, book2) => {
 }
 
 let filteredBooks = books.filter(year => year.releaseYear > 2015);
-filteredBooks.sort((a, b) => a.releaseYear - b.releaseYear);
+filteredBooks.sort(sortByYear)
